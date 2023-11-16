@@ -21,6 +21,15 @@ button {
   padding: 8px 16px;
 }
 
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
@@ -45,5 +54,9 @@ ul {
 }
 
 .footer {
- background-color: #cec9c9
+  display: flex;
+ background-color: #cec9c9;
+ margin: 0;
+ padding: 0;
+ gap: 16px;
 }
